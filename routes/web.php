@@ -22,3 +22,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::gett('/bb/b1', function(){
     return view('bb.b1');
 });
+
+Route::gett('/bb/b2', function(){
+    return view('bb.b2');
+});
