@@ -31,3 +31,6 @@ Route::get('/bb/b1', function(){
 Route::get('/bb/b2', function(){
     return view('bb.b2');
 });
+Route::get('/cc/c1', function(){
+    return view('cc.c1');
+});
